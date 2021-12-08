@@ -1,0 +1,134 @@
+body {
+    font-size: 16px;
+    color: rgb(40,40,40);
+    background-color: #fec5bb;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+#header-nav {
+    background-color: #b5838d;
+    border-radius: 0;
+    border: 0;
+}
+
+#flag {
+    background: url('../images/125px-Flag_of_Vietnam.svg.png') no-repeat;
+    width: 125px;
+    height: 83px;
+    margin: 10px 15px 10px 0;
+}
+.namepage {
+    padding-top: 25px;
+}
+.namepage h1 {
+    color: #6d6875;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-shadow: 1.5px 1.5px 1.5px #383838;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    clear: both;
+}
+.namepage a:hover, .namepage a:focus {
+    text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 2px solid #6d6875;
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+}
+
+#nav-list {
+    margin-top: 10px;
+}
+#nav-list a {
+    color: #6d6875;
+    text-align: center;
+    font-weight: bold;
+}
+#nav-list a:hover {
+    background: #ffb4a2;
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-title {
+    font-weight: bold;
+    font-size: 5vw;
+    color: #6d6875;
+    margin-bottom: 25px;
+}
+.text-center {
+    text-align: center;
+}
+
+.category-tile {
+    background: #ffe5d9;
+    padding: 10px 20px 10px 30px
+}
+.category-tile h3 {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #a68a64;
+    text-align: center;
+}
+.category-tile p {
+    margin-bottom: 20px;
+}
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+    .namepage h1 {
+        font-size: 3vw;
+        height: 63px;
+    }
+
+    #menu-title {
+        font-size: 4vw;
+    }
+  }
+  
+  /********** Medium devices only **********/
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .namepage h1 {
+        font-size: 3vw;
+        height: 57px;
+    }
+
+    #menu-title {
+        font-size: 4vw;
+    }
+  }
+  
+  /********** Small devices only **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+    .namepage h1 {
+        font-size: 4vw;
+        height: 55px;
+        margin-left: 15%;
+    }
+  }
+  
+  /********** Extra small devices only **********/
+  @media (max-width: 767px) {
+    .namepage {
+        padding-top: 10px;
+    }
+    .namepage h1 {
+        padding-top: 10px;
+        font-size: 5vw;
+        padding-left: 10px;
+        margin-left: 15%;
+    }
+    #collapsable-nav {
+        background: #ffcdb2;
+    }
+  }
+  
+  /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+  @media (max-width: 479px) {
+
+  }
